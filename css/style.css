@@ -1,0 +1,162 @@
+
+*{
+	background-color: pink;
+	font-size: 40px;
+}
+ol , ul{
+	font-size: 30px;
+	}
+	
+	/* Text-alignment*/
+	
+	.text-align h1 {
+  text-align: center;
+}
+
+  .text-align h2 {
+  text-align: left;
+}
+.text-align h3 
+ {
+  text-align: right;
+ } 
+ /* direction and unicode- bidi */
+ 
+  .rtll 
+  {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.line h1 {
+  text-decoration-line: overline;
+}
+
+.line h2 {
+  text-decoration-line: line-through;
+}
+
+.line h3 {
+  text-decoration-line: underline;
+}
+
+.line p {
+  text-decoration-line: overline underline;
+}
+/* Text-decoration-color: */
+
+h1 {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/* text-decoration-style: */
+
+div.a {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+div.b {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+div.c {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+div.d {
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
+}
+
+/* text-decoration-thickness: */
+
+.thickness h1 {
+  text-decoration: underline;
+  text-decoration-thickness: auto;  
+}
+
+.thickness h2 {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;  
+}
+
+.thickness h3 {
+  text-decoration: underline;
+  text-decoration-thickness: 50%;    
+}
+
+/* text-decortion: */
+/* Use shorthand property */
+
+ h4 {
+  text-decoration: underline solid red 50%;    
+}
+
+/* /* text-transform   text type 4 */
+
+div.trans {
+  text-transform: uppercase;
+}
+
+div.transform {
+  text-transform: lowercase;
+}
+
+div.transformm {
+  text-transform: capitalize;
+}
+
+/* text-spacing: */
+p {
+  text-indent: 80px;
+}
+
+/* Letter-spacing: */
+
+.letter-spacing h2 {
+  letter-spacing: 5px;
+}
+
+.letter-spacing h3 {
+  letter-spacing: -2px;
+}
+
+/* line-height: */
+
+p.small {
+  line-height: 0.8;
+}
+
+p.big {
+  line-height: 1.8;
+}
+
+/* word-spacing */
+
+p.one {
+  word-spacing: 40px;
+}
+
+p.two {
+  word-spacing: -2px;
+}
+
+/* white-spacing */
+
+p {
+  white-space: nowrap;
+}
+
+/* Text-Shadow */
+
+p.shadow {
+  text-shadow: 2px 2px 5px red;
+}
+
+
+
+
